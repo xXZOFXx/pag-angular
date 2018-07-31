@@ -1,0 +1,44 @@
+
+
+  .headerimage {
+    background-color:rgb(44, 100, 223);
+    height:600px;
+    width:100%;
+    background-size:cover;
+    position:relative;
+    z-index:-1;
+
+  }
+  #backshape .wrapper {
+    display:block;
+    float:left;
+    margin:50px auto 200px;
+    width:100%;
+    padding:0 5%;
+    transform:skew(0deg,-5deg);
+  -ms-transform:skew(0deg,-10deg);
+  -webkit-transform:skew(0deg,-5deg);
+  }
+
+  #backshape {
+    z-index:1;
+    display:block;
+    float:left;
+    margin-top:-200px;
+    width:100%;
+    background:white;
+    transform:skew(0deg,10deg);
+  -ms-transform:skew(0deg,10deg); /* IE 9 */
+  -webkit-transform:skew(0deg,5deg); /* Safari and Chrome */
+  }
+
+
+  .contenedor
+  	{
+      text-align: center;
+      font-size: 40px;
+    line-height: 64px;
+    font-weight: 500;
+    margin: 32px;
+
+}
