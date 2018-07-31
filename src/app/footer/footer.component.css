@@ -1,38 +1,25 @@
 
-
-  .headerimage {
-    background-color:rgb(44, 100, 223);
-    height:600px;
-    width:100%;
-    background-size:cover;
-    position:relative;
-    z-index:-1;
-
-  }
-  #backshape .wrapper {
-    display:block;
-    float:left;
-    margin:50px auto 200px;
-    width:100%;
-    padding:0 5%;
-    transform:skew(0deg,-5deg);
-  -ms-transform:skew(0deg,-10deg);
-  -webkit-transform:skew(0deg,-5deg);
-  }
-
-  #backshape {
-    z-index:1;
-    display:block;
-    float:left;
-    margin-top:-200px;
-    width:100%;
-    background:white;
-    transform:skew(0deg,10deg);
-  -ms-transform:skew(0deg,10deg); /* IE 9 */
-  -webkit-transform:skew(0deg,5deg); /* Safari and Chrome */
-  }
-
-
+.absolute{
+   background:linear-gradient(145deg,#0d47a1
+,#42a5f5
+);
+   z-index: -9;
+   -webkit-transform: skewY(8deg);
+   transform: skewY(8deg);
+   -webkit-transform-origin: 100%;
+   transform-origin: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   position: absolute;
+   width: 100%;
+   min-height: 480px;
+   height: 80vh;
+   max-height: 560px;
+   box-sizing: border-box;
+   padding: 48px 48px 32px;
+   overflow: hidden;
+}
   .contenedor
   	{
       text-align: center;
