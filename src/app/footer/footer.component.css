@@ -20,9 +20,11 @@
    padding: 48px 48px 32px;
    overflow: hidden;
 }
+
+
   .contenedor
   	{
-      text-align: center;
+      align: center;
       font-size: 40px;
     line-height: 64px;
     font-weight: 500;
